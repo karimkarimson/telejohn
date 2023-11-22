@@ -15,7 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "tf-version": "terraform version",
-    "tf-init": "terraform -chdir=./infra init -reconfigure",
+    "tf-init": "terraform -chdir=./infra init",
     "tf-val": "terraform -chdir=./infra validate",
     "tf-plan": "terraform -chdir=./infra plan",
     "tf-apply": "terraform -chdir=./infra apply --auto-approve",
